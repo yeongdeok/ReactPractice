@@ -1,0 +1,237 @@
+table {
+  border-spacing: 0px;
+}
+
+#title {
+  padding-top: 80px;
+  text-align: center;
+  font-size: 30pt;
+  background-image: url(./img/computer.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height: 400px;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+}
+
+#title .titleDiv{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-weight: bold;
+  font-size: 25pt;
+}
+
+#subMenu {
+  width: 100%;
+}
+
+#subMenu #subTitle {
+  margin-top: 20px;
+}
+
+#subMenu #menuTable {
+  margin-top: 141px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+#subMenu #menuTable th {
+  padding-bottom: 20px;
+  background-color: rgba(83, 83, 83, 0.712);
+  border-radius: 10px;
+}
+
+#subMenu #menuTable td{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 33%;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+#introduce {
+  width: 100%;
+  height: 700px;
+}
+
+#introduce #introduceTable {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+#introduce #introduceTable th {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 40pt;
+  font-weight: bold;
+}
+
+#introduce #introduceTable .introduceImg {
+  width: 35%;
+  height: 150px;
+}
+
+#introduce #introduceTable .introduceImg img {
+  width: 100px;
+}
+
+#introduce #introduceTable .introduceName {
+  font-weight: bold;
+}
+
+#introduce #introduceTable td {
+  font-size: 20pt;
+}
+
+#skill {
+  width: 100%;
+  height: 750px;
+  background-color: rgb(170, 248, 222);
+}
+
+#skill #skillTable {
+  width: 1000px;
+  height: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#skill #skillTable th {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 40pt;
+  font-weight: bold;
+}
+
+#skill #skillTable td {
+  width: 240px;
+  height: 200px;
+
+}
+
+#skill #skillTable td .imgBackground {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px;
+}
+
+#skill #skillTable td .imgBackground:hover {
+  width: 200px;
+  height: 200px;
+}
+
+#skill #skillTable td .imgBackground img {
+  max-width: 120px;
+  max-height: 120px;
+  padding-top: 18px;
+}
+
+#skill #skillTable td .imgBackground:hover img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+#project {
+  width: 100%;
+  background-color: #B0E0E6;
+
+}
+
+#project #projectTable {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  height: 650px;
+  margin-bottom: 100px;
+}
+
+#project #projectTable th {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 40pt;
+  font-weight: bold;
+  height: 100px;
+}
+
+#project #projectTable #projectOne {
+  width: 100%;
+  height: 450px;
+}
+
+#project #projectTable #projectOne .projectImgArea {
+  width: 60%;
+}
+
+#project #projectTable #projectOne .projectImgArea .projectImgBox {
+  width: 300px;
+  height: 250px;
+  border: 5px solid red;
+}
+
+#project #projectTable #projectOne .projectImgArea .projectImgTable{
+  width: 600px;
+  height: 300px;
+}
+
+#project #projectTable #projectOne .projectImgArea .projectImgTable .projectImgBox img{
+  width: 300px;
+  height: 250px;
+}
+
+#project #projectTable #projectOne .projectImgArea .projectImgTable .projectImgBoxLeft{
+  width: 120px;
+}
+
+#project #projectTable #projectOne .projectImgArea .projectImgTable .projectImgBoxLeft img{
+  width: 80px;
+  height: 120px;
+}
+
+#project #projectTable #projectOne .projectImgArea .projectImgTable .projectImgBoxLeft img:hover{
+  cursor: pointer;
+  width: 100px;
+  height: 140px;
+}
+
+#project #projectTable #projectOne .projectImgArea .projectImgTable .projectImgBoxRight{
+  width: 120px;
+}
+
+#project #projectTable #projectOne .projectImgArea .projectImgTable .projectImgBoxRight img{
+  width: 80px;
+  height: 120px;
+}
+
+#project #projectTable #projectOne .projectImgArea .projectImgTable .projectImgBoxRight img:hover{
+  cursor: pointer;
+  width: 100px;
+  height: 140px;
+}
+
+#project #projectTable #projectOne .projectName {
+  height: 100px;
+  font-size: 25pt;
+  font-weight: bold;
+}
+
+#project #projectTable #projectOne .projectSubName {
+  height: 70px;
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+#project #projectTable #projectOne .projectExplanation {
+  font-size: 12pt;
+}
